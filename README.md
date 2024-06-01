@@ -1,86 +1,80 @@
-\# Web Development Projects
+# Web Development Projects
 
-Welcome to the Web Development Projects repository! This repository
-contains a collection of web development projects showcasing different
-technologies and functionalities. Below are the details of each project
-included in this repository.
+Welcome to the Web Development Projects repository! This repository contains a collection of web development projects showcasing different technologies and functionalities. Below are the details of each project included in this repository.
 
-\## Projects
+**Projects**
 
-\### 1. GoldenRestro
+**1. GoldenRestro**
 
-GoldenRestro is an online food ordering and delivery application. This
-project aims to provide a seamless and user-friendly experience for
-customers to browse menus, place orders, and get their favorite meals
-delivered to their doorstep.
+GoldenRestro is an online food ordering and delivery application. This project aims to provide a seamless and user-friendly experience for customers to browse menus, place orders, and get their favorite meals delivered to their doorstep.
 
-\#### Features: - User registration and login - Menu browsing with
-categories - Order placement and tracking - Payment integration - Admin
-panel for managing orders, menus, and users
+**Features:**
 
-\#### Technologies Used: - Frontend: HTML, CSS, JavaScript, Bootstrap -
-Backend: Node.js, Express.js - Database: MongoDB
+User registration and login
 
-\#### How to Run: 1. Clone the repository: \`\`\`bash git clone
-https://github.com/yourusername/web-development-projects.git \`\`\` 2.
-Navigate to the GoldenRestro directory: \`\`\`bash cd
-web-development-projects/GoldenRestro \`\`\` 3. Install dependencies:
-\`\`\`bash npm install \`\`\` 4. Start the server: \`\`\`bash npm start
-\`\`\` 5. Open your browser and navigate to \`http://localhost:3000\`.
+Menu browsing with categories
 
-\### 2. Carzest
+Order placement and tracking
 
-Carzest is a car rental application developed using Django. This project
-allows users to browse available cars, make reservations, and manage
-their rentals.
+Payment integration
 
-\#### Features: - User authentication and profile management - Car
-browsing and filtering - Reservation system - Admin panel for managing
-cars, reservations, and users
+Admin panel for managing orders, menus, and users
 
-\#### Technologies Used: - Frontend: HTML, CSS, JavaScript, Bootstrap -
-Backend: Django - Database: SQLite (default, can be configured to use
-other databases)
+**Technologies Used:**
 
-\#### How to Run: 1. Clone the repository: \`\`\`bash git clone
-https://github.com/yourusername/web-development-projects.git \`\`\` 2.
-Navigate to the Carzest directory: \`\`\`bash cd
-web-development-projects/Carzest \`\`\` 3. Install dependencies:
-\`\`\`bash pip install -r requirements.txt \`\`\` 4. Apply migrations:
-\`\`\`bash python manage.py migrate \`\`\` 5. Create a superuser:
-\`\`\`bash python manage.py createsuperuser \`\`\` 6. Start the
-development server: \`\`\`bash python manage.py runserver \`\`\` 7. Open
-your browser and navigate to \`http://localhost:8000\`.
+Frontend: HTML, CSS, JavaScript, Bootstrap
+Backend: phpmyadmin,xampp
 
-\### 3. Simple Blog
+**2. Carzest**
 
-The Simple Blog is a basic blog website created using Bootstrap. It
-allows users to read blog posts and leave comments.
+Carzest is a car rental application developed using Django. This project allows users to browse available cars, make reservations, and manage their rentals.
 
-\#### Features: - Responsive design using Bootstrap - Blog post listing
-and detail view - Comment section for each post
+**Features:**
 
-\#### Technologies Used: - Frontend: HTML, CSS, Bootstrap
+User authentication and profile management
 
-\#### How to Run: 1. Clone the repository: \`\`\`bash git clone
-https://github.com/yourusername/web-development-projects.git \`\`\` 2.
-Navigate to the Simple Blog directory: \`\`\`bash cd
-web-development-projects/SimpleBlog \`\`\` 3. Open \`index.html\` in
-your preferred web browser.
+Car browsing and filtering
 
-\## Contributing
+Reservation system
 
-Contributions are welcome! Please create a pull request with your
-changes, and ensure your code follows the existing coding style.
+Admin panel for managing cars, reservations, and users
 
-\## License
+**Technologies Used:**
 
-This repository is licensed under the MIT License. See the
-\[LICENSE\](LICENSE) file for more details.
+Frontend: HTML, CSS, JavaScript, Bootstrap
 
-\## Contact
+Backend: Django
 
-For any questions or feedback, please contact
-\[yourname@example.com\](mailto:yourname@example.com).
+Database: SQLite (default, can be configured to use other databases)
+
+
+**3. TechTraveller - Blog Website**
+
+The Simple Blog is a basic blog website created using Bootstrap. It allows users to read blog posts and leave comments.
+
+**Features:**
+
+Responsive design using Bootstrap
+
+Blog post listing and detail view
+
+Comment section for each post
+
+**Technologies Used:**
+
+Frontend: HTML, CSS, Bootstrap
+
+
+**Contributing**
+
+Contributions are welcome! Please create a pull request with your changes, and ensure your code follows the existing coding style.
+
+**License**
+
+This repository is licensed under the MIT License. See the LICENSE file for more details.
+
+**Contact**
+
+For any questions or feedback, please contact sagarravandale07@gmail.com.
 
 Happy coding!
