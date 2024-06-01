@@ -65,15 +65,15 @@ Comment section for each post
 Frontend: HTML, CSS, Bootstrap
 
 
-**Contributing**
+### **Contributing**
 
 Contributions are welcome! Please create a pull request with your changes, and ensure your code follows the existing coding style.
 
-**License**
+### **License**
 
 This repository is licensed under the MIT License. See the LICENSE file for more details.
 
-**Contact**
+### **Contact**
 
 For any questions or feedback, please contact sagarravandale07@gmail.com.
 
