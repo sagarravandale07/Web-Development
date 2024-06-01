@@ -1,0 +1,45 @@
+<!-- Page3- page3.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link>
+    <link rel="stylesheet" href="page3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="navbar">
+        <img src="logo.png" class="logo">
+        <a href="#home" class="active">Home</a>
+        <a href="#about" class="nav">About Us</a>
+        <a href="#categories" class="nav">Categories</a>
+        <a href="#contactus" class="nav">Contact</a>
+    <input type="text" id="search" name="search" placeholder="what are you looking for..?" class="search">
+</div>
+
+    <div class="container">
+        <div class="box">
+            <div>
+                <img src="img2.jpg">
+            </div>
+            <div style="padding-left: 30px;">
+            <h1 >Honda City</h1>
+            <p class="review"> Share Reviews</p>
+            <span class="material-symbols-outlined">
+                share_reviews
+            </span>
+            <p class="price">Rs 11.63 - 16.11 Lakh*</p>
+            <p class="price1">* Get On Road Price</p>
+            <br>
+            <button class="btn1"> Get Offers </button><br>
+            <span>
+            <img src="offer.jpg" class="offer-img">
+            <p class="offer">Don't miss out on the best offers for this month</p>
+            </span>
+        </div>
+        </div>
+    </div>
+</body>
+</html>

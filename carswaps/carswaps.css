@@ -1,0 +1,247 @@
+body {
+    font-family: 'Gill Sans' ;
+    color: rgb(20, 18, 18);
+  }
+
+  .logo{
+    width: 7%;
+    float:left;
+    padding: 10px;
+  }
+
+  .navbar{
+  overflow: hidden;
+  border: 2px solid;
+  color:black
+  }
+
+  .navbar a{
+    float: left;
+    color: rgb(131, 16, 108);
+    text-align: center;
+    padding: 20px 16px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: rgb(131, 16, 108);
+    color: white;
+    padding: 20px 16px;
+    margin: 10px;
+  }
+  
+  .navbar.nav{
+    color: white;
+  }
+  
+  input[type=text]{
+    width: 20%;
+    padding: 10px 20px;
+    margin: 2px;  
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    left: 570px;
+ }
+
+ input[type=text]::placeholder{
+  color: black;
+  font-family: Arial;
+
+ }
+
+ .img1{
+  width: 100%;
+ }
+
+ .login{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgba(250, 250, 250, 0.8)20%,rgba(250, 250, 250, 0.8)20%);
+    position: relative;
+    top: -400px;
+    left: 1100px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 5px 10px 8px #2e2e2e;
+}
+
+input[type=email], input[type=password] {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  top: 30px;
+  width:220px;
+  padding: 10px 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)20%,rgba(0,0,0,0.8)20%);
+  margin: 8px;  
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-shadow: 5px 10px 8px #888888; 
+  border-radius: 10px;
+}
+
+input[type=email]:hover, input[type=password]:hover{
+  color: white;
+}
+
+.login h1{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #000000	;
+  font-size: 22px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+  position: relative;
+  top:20px;
+}
+
+.sub_btn{
+  width: 100px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #000000	;
+  font-size: 18px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 3px;
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  left:70px;
+}
+
+.sub_btn:hover{
+  background-color: rgb(131, 16, 108);
+  color: white;
+}
+
+::placeholder{
+  color: #7a7979;
+  font-family: Arial;
+}
+
+.login .signup{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+  color:#000000
+}
+
+.login .signup a{
+  color: rgb(131, 16, 108)	;
+}
+
+.cards{
+    width: 1440px;
+    height: 360px;
+    background: linear-gradient(to top, rgb(255, 255, 255)20%,rgb(255, 255, 255)20%);
+    position: relative;
+    top: -300px;
+    left: 30px;
+    padding: 25px;
+    box-sizing: border-box;
+    border : 1px solid #2e2e2e;
+}
+  .card1 {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 3%;
+    border-radius: 10px;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card2 {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left:28%;
+    border-radius: 10px;
+  }
+  
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card3 {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left: 53%;
+    border-radius: 10px;
+  }
+  
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card4 {
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    position: absolute;
+    display: inline-block;
+    top: 10px;
+    left:77%;
+    border-radius: 10px;
+  }
+  
+  .card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container{
+    text-align: left, 50px;
+  }
+  
+  .btn{
+    width: 100px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    color: #000000	;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin: 2%;
+    padding: 5px;
+    border-color: red;
+    position: relative;
+    display: inline-block;
+    width: 270px;
+  ;
+  }
+  
+  .btn:hover{
+    background-color: rgb(253, 60, 60);
+    color: white;
+  }

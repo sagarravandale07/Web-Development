@@ -1,0 +1,376 @@
+
+/* Css File- Carswaps1.css*/
+body {
+  font-family: Arial, Helvetica, sans-serif;
+    color: rgb(20, 18, 18);
+  }
+
+  .logo{
+    width: 7%;
+    float:left;
+    padding: 10px;
+  }
+
+  .navbar{
+  overflow: hidden;
+  border-bottom: 2px solid;
+  margin-bottom: 10px;
+  color:rgb(182, 182, 182);
+  }
+
+  .navbar a{
+    float: left;
+    color: rgb(131, 16, 108);
+    text-align: center;
+    padding: 20px 16px;
+    margin: 5px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navbar a:hover {
+    background-color: rgb(131, 16, 108);
+    color: white;
+    padding: 20px 16px;
+    margin: 10px;
+  }
+  
+  .navbar.nav{
+    color: white;
+  }
+  
+  input[type=text]{
+    width: 20%;
+    padding: 10px 20px;
+    margin: 2px;  
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    box-shadow: 5px 10px 8px #888888;
+    border-radius: 10px;
+    position: relative;
+    top: 15px;
+    left: 570px;
+ }
+
+ input[type=text]::placeholder{
+  color: black;
+  font-family: Arial;
+
+ }
+
+ .img1{
+  width: 100%;
+ }
+
+ .login{
+    width: 250px;
+    height: 300px;
+    background: linear-gradient(to top, rgba(250, 250, 250, 0.8)20%,rgba(250, 250, 250, 0.8)20%);
+    position: relative;
+    top: -400px;
+    left: 1100px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+    box-shadow: 5px 10px 8px #2e2e2e;
+}
+
+input[type=email], input[type=password] {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 15px;
+  position: relative;
+  top: 30px;
+  width:220px;
+  padding: 10px 20px;
+  background: linear-gradient(to top, rgba(0,0,0,0.8)20%,rgba(0,0,0,0.8)20%);
+  margin: 8px;  
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  box-shadow: 5px 10px 8px #888888; 
+  border-radius: 10px;
+}
+
+input[type=email]:hover, input[type=password]:hover{
+  color: white;
+}
+
+.login h1{
+  width: 220px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #000000	;
+  font-size: 22px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+  position: relative;
+  top:20px;
+}
+
+.sub_btn{
+  width: 100px;
+  font-family: sans-serif;
+  text-align: center;
+  color: #000000	;
+  font-size: 18px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin: 2%;
+  padding: 3px;
+  position: relative;
+  display: inline-block;
+  top: 20px;
+  left:70px;
+}
+
+.sub_btn:hover{
+  background-color: rgb(131, 16, 108);
+  color: white;
+}
+
+::placeholder{
+  color: #7a7979;
+  font-family: Arial;
+}
+
+.login .signup{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding-top: 20px;
+  text-align: center;
+  color:#000000
+}
+
+.login .signup a{
+  color: rgb(131, 16, 108)	;
+}
+
+
+  
+  .btn:hover{
+    background-color: rgb(253, 60, 60);
+    color: white;    
+  }
+
+  .cards{
+    display: flex;
+    padding: 30px;
+    position: relative;
+    top: -320px;
+    border: 1px solid black;
+  }
+
+  .card1{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+  }
+
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ececec;
+  }
+
+  .card2{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+  }
+
+  .card2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ececec;
+  }
+  .card3{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+  }
+
+  .card3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ececec;
+  }
+
+  .card4{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+  }
+
+  .card4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ececec;
+  }
+
+
+  .container{
+    text-align: center, 50px;
+    font-family: Helvetica;
+  }
+  
+  .btn{
+    width: 100px;
+    font-family: 'Trebuchet MS';
+    text-align: center;
+    color: #000000	;
+    font-size: 15px;
+    background-color: #ffffff;
+    margin: 2%;
+    padding: 5px;
+    border-color: red;
+    position: relative;
+    display: inline-block;
+    width: 270px;
+  ;
+  }
+  
+  .btn:hover{
+    background-color: rgb(253, 60, 60);
+    color: white;
+  }
+
+  img{
+    border-radius: 5px;
+  }
+
+  .logo-cards{
+    display: flex;
+    padding: 30px;
+    position: relative;
+    top: -290px;
+    border: 1px solid black;
+  }
+
+  .logo1{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+  }
+
+  .logo1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ececec;
+  }
+
+  .logo2{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+  }
+
+  .logo2:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ececec;
+  }
+  .logo3{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+  }
+
+  .logo3:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ececec;
+  }
+
+  .logo4{
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid grey;
+  }
+
+  .logo4:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ececec;
+  }
+
+
+  .container{
+    text-align: center, 50px;
+  }
+  
+  .car-head{
+    font: 1em helvetica;;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top:-330px;
+}
+
+.logo-head{
+    font: 1em helvetica;;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top:-300px;
+}
+
+.cards-services{
+    display: flex;
+    padding: 10px;
+    position: relative;
+    top: -250px;
+    border: 1px solid black;
+  }
+
+  .service1{
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .service2{
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .service3{
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+  .service4{
+    padding: 20px;
+    margin-top: 30px;
+  }
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    padding: 3px;
+    background-color: DarkSalmon;
+    color: azure;
+    position: relative;
+    top:-100px;
+  }
+
+  a{
+    text-decoration: none;
+    color: azure;
+    padding: 20px;
+  }
+
+  .social{
+    font-size: 18px;
+    text-align: center;
+    padding-left: 10%;
+    padding: 15px;
+  }
+
+  .service-head{
+    font: 1em helvetica;;
+    text-align: center;
+    font-size: 25px;
+    position: relative;
+    top:-270px;
+}
+
+.service-img:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    background-color: #ececec;
+    transition: 0.5s;
+  }
