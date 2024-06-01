@@ -4,7 +4,7 @@ Welcome to the Web Development Projects repository! This repository contains a c
 
 **Projects**
 
-**1. GoldenRestro**
+## **1. GoldenRestro**
 
 GoldenRestro is an online food ordering and delivery application. This project aims to provide a seamless and user-friendly experience for customers to browse menus, place orders, and get their favorite meals delivered to their doorstep.
 
@@ -25,7 +25,7 @@ Admin panel for managing orders, menus, and users
 Frontend: HTML, CSS, JavaScript, Bootstrap
 Backend: phpmyadmin,xampp
 
-**2. Carzest**
+## **2. Carzest**
 
 Carzest is a car rental application developed using Django. This project allows users to browse available cars, make reservations, and manage their rentals.
 
@@ -48,7 +48,7 @@ Backend: Django
 Database: SQLite (default, can be configured to use other databases)
 
 
-**3. TechTraveller - Blog Website**
+## **3. TechTraveller - Blog Website**
 
 The Simple Blog is a basic blog website created using Bootstrap. It allows users to read blog posts and leave comments.
 
